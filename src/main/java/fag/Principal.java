@@ -46,10 +46,10 @@ public class Principal {
 	// Exemplo: "5 x 1 = 5", "5 x 2 = 10", etc.
 	public static void questao2_Print() {
 		System.out.println("=== QUESTÃO 2 - PRINT ===");
-		for (int i = 0; i < 10; i++) {
+		for (int i = 1; i <= 10; i++) {
 			
 			int resultado = 5 * i;
-			System.out.printf("5 * %d = %d\n", i, resultado);
+			System.out.printf("5 x %d = %d\n", i, resultado);
 		}
 		
 	}
@@ -147,9 +147,9 @@ public class Principal {
 		int numero = scan.nextInt();
 		
 		if (numero % 2 == 0) {
-			System.out.println("O número é par\n");
+			System.out.println("PAR");
 		} else {
-			System.out.println("O número é impar\n");
+			System.out.println("IMPAR");
 		}
 		
 	}
@@ -210,8 +210,8 @@ public class Principal {
 		long f1 = calcularFatorial(numero1);
 		long f2 = calcularFatorial(numero2);
 		
-		System.out.printf("Fatorial do número %d = \n", f1);
-		System.out.printf("Fatorial do número %d = \n", f2);
+		System.out.printf("Fatorial do número = %d\n", f1);
+		System.out.printf("Fatorial do número = %d\n", f2);
 	}
 	
 	// ========================================
